@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Admission Form
+</title>
+<style>
+.div {
+    background: linear-gradient(to bottom, #ffffff 0%, #99ccff 100%);
+}
+</style>
+<script type="text/javascript" src="p41.js"></script>
+</head>
+<body class="div"> 
+<img src="1.jpg" width=1500 height=500>
+<h1 style="text-align: center"> REGISTRATION FORM FOR ADMISSION</h1> 
+<fieldset>
+    <legend><b>Admission Form:</b></legend>          
+<form name="RegForm" action="/submit.php" onsubmit="" method="post">  
+      
+    <p>Name: <input type="text" size=44 name="Name" id="fname"  onblur="myFunction()"> </p><br>        
+    <p> City: 
+    <select type="text" value="" name="City"> 
+            <option>RAJKOT</option> 
+            <option>SURAT</option> 
+            <option>V.V.NAGAR</option> 
+            <option>NADIAD</option>
+	    <option>BARODA</option> 
+        </select></p><br> 
+    <p>E-mail Address: <input type="text" size=44 name="EMail"  onblur="myFunction1()" id="Email">  </p><br> 
+    <p>Mobile No.: <input type="text" size=44 name="Mobile No."> </p><br>   
+           
+    <p>SELECT YOUR COURSE:    
+        <select type="text" name="Subject"> 
+            <option>BTECH</option> 
+            <option>BBA</option> 
+            <option>BCA</option> 
+            <option>B.COM</option> 
+        </select></p><br><br> 
+        
+        <p><input type="submit" value="Submit" name="Submit" onClick="msg()">      
+        <input type="reset" value="Reset" name="Reset">   
+    </p>  
+</fieldset>        
+</form> 
+</body>
+</html>
