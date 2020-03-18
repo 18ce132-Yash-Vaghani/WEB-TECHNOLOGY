@@ -1,0 +1,7 @@
+.bg{
+ height: 1000px;
+ background: linear-gradient(to bottom, #ffff3c 0%, #0081e9 100%);
+}
+.t{
+ font-size: 60px;
+}
