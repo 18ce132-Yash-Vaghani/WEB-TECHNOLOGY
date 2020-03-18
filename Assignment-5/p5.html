@@ -1,0 +1,46 @@
+<html>
+<head>
+<title> National Workshop on Web Technology
+</title>
+<style>
+.div {
+    background: linear-gradient(to bottom, #ffffff 0%, #99ccff 100%);
+}
+</style>
+<script type="text/javascript" src="p51.js"></script>
+</head>
+<body class="div"> 
+<img src="n1.jpeg" width=1500 height=500>
+<h1 style="text-align: center"> Registration Form for National Workshop on Web Technology </h1> 
+<fieldset>
+    <legend><b>Registration Form:</b></legend>          
+<form name="RegForm" action="connect.php" onsubmit="" method="post">  
+      
+    <p>First Name: <input type="text" size=44 name="FName" id="fname"  onblur="myFun()"> 
+     Middle Name: <input type="text" size=44 name="MName" id="mname"  onblur="myFun()"> 
+     Last Name: <input type="text" size=44 name="LName" id="lname"  onblur="myFun()"> </p><br> 
+<p>Your Role: 
+    <input type="radio" name="Role" value="STU.">STUDENT 
+     <input type="radio" name="Role" value="FAC.">FACULTY
+      <input type="radio" name="Role" value="PRO.">PROFESSIONAL 
+       <input type="radio" name="Role" value="REP.">COMPANY REPRESENTIVE
+           </p><br>       
+    <p>Id No.: <input type="text" size=44 name="ID" id="id"  onblur="myFun1()"> </p><br> 
+     
+    <p> City: 
+    <input type="radio" value="RAJKOT" name="City">RAJKOT 
+    <input type="radio" value="SURAT" name="City">SURAT
+    <input type="radio" value="V.V.NAGAR" name="City">V.V.NAGAR
+    <input type="radio" value="NADIAD" name="City">NADIAD
+    <input type="radio" value="BARODA" name="City">BARODA
+    </p><br> 
+    <p>E-mail Address: <input type="text" size=44 name="EMail"  onblur="myFun1()" id="Email">  </p><br> 
+    <p>Mobile No.: <input type="text" size=44 name="Mob"> </p><br>   
+        
+        <p><input type="submit" value="Submit" name="Submit" onClick="msg()">      
+        <input type="reset" value="Reset" name="Reset">   
+    </p>  
+</fieldset>        
+</form> 
+</body>
+</html>
