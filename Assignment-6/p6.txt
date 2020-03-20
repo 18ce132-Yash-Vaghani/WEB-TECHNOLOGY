@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Dinner Menu</title>
+<link rel="stylesheet" type="text/css" href="P6.css" media="screen"/>
+</head>
+
+<body>
+<div>
+  <p style="text-align: center; width:49%; display: inline-block;"><strong  class ="title">Restaurant Menu</strong>
+  </p></div>
+  
+
+<div id="m">
+  <div id="menoo" class="dropdown">
+ <font id="mentitle" size="40px">Breakfast</font> 
+<div class="dropdown-content">
+  <ul id="men">
+    <li>
+    <font id="menu" color="white"><a href="">South indian</a></font>   
+    <ul>
+    	<li><a href ="">Dosa  120/-</a></li>
+    	<li><a href="">Idli   &nbsp&nbsp&nbsp 70/-</a></li>
+    	</ul>  
+</li>
+<hr>
+<br>  
+<li>
+    <font id="menu"><a href="">North indian</a></font>
+    <ul>
+    	<li><a href ="">Samosa  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60/-</a></li>
+    	<li><a href="">Chole Bhature 120/-</a></li>
+    	</ul>  
+  </li>
+  <hr>
+<br>
+</ul>
+  </div>
+</div>
+<div id="menoo" class="dropdown"> <font id="mentitle" size="40px">Lunch</font> 
+<div class="dropdown-content">
+    <ul id="men">
+     <li>
+    <font id="menu"><a href="">Gujrati</a></font>
+    <ul>
+    	<li><a href ="">Fix-Dish[4-Roti,2-Sabji,1-Sweet,1-Buttermilk]&nbsp160/-</a></li>
+    	<li><a href="">Dal-Bhat &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp70/-</a></li>
+    	</ul>  
+  </li>
+      <hr>
+      <br>
+      <li>
+    <font id="menu"><a href="">Punjabi</a></font>
+    <ul>
+    	<li><a href ="">Fix-Dish[2-Naan,1-Sabji,1-Lassi,1-Papad]&nbsp&nbsp&nbsp190/-</a></li>
+    	<li><a href="">Paratha&nbsp 120/-</a></li>
+    	</ul>  
+  </li>
+      <hr>
+      <br>
+    </ul>
+  </div>
+
+</div>
+<div id="menoo" class="dropdown"> <font id="mentitle" size="40px">Dinner</font>   
+<div class="dropdown-content">
+    <ul id="men">
+      <li><font id="menu"><a href="">Gujarati</a></font></li>
+      <hr>
+      <br>
+
+      <li><font id="menu"><a href="">Punjabi</a></font></li>
+      <hr>
+      <br>
+
+      <li><font id="menu"><a href=""> Chinese</a></font></li>
+    <hr>
+    <br>
+
+    <li><font id="menu"><a href=""> Burger</a></font></li>
+<hr>
+<br>
+<li><font id="menu"><a href="">Pizza</a></font></li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
