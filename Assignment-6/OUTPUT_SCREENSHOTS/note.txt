@@ -1,0 +1,1 @@
+You can download screenshot from given png formate file.
